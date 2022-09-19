@@ -18,6 +18,13 @@ public class HomeController {
         return "html/aboutus";
     }
 
+    @GetMapping("/home")
+    public String home() {
+        return "html/index";
+    }
+
+
+
 
 
 
