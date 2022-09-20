@@ -1,22 +1,26 @@
 
 
-
 .ms-background {
-
     margin: 0;
     padding: 0;
-
 }
-
-
-
 
 .ms-menu {
     display: flex;
     align-items: flex-start;
-    background-color: #B4E9AC ;
+    background-color: #B4E9AC;
     margin: 0;
     padding: 0;
+    <!--position: fixed; -->
+}
+
+.ms-content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: #E7E9EB;
+    margin: auto;
+
 }
 
 
@@ -34,7 +38,11 @@ a:link,a:visited{
 
 
 body {
-    background-image: url("static/images/beaver.jpg");
+<!--
+    background-image: url("../images/beaver.jpg");
+    background-size:cover;
+-->
+
 }
 
 
