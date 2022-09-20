@@ -3,6 +3,8 @@
 
 .ms-background {
 
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -12,7 +14,7 @@
 .ms-menu {
     display: flex;
     align-items: flex-start;
-    background-color: lightgrey;
+    background-color: #B4E9AC ;
     margin: 0;
     padding: 0;
 }
@@ -22,7 +24,7 @@ a:link,a:visited{
     font-size: 25px;
     font-weight: bold;
     font-family: "Arial Black";
-    background-color: white;
+    background-color: #80D972;
     padding: 12px;
     margin: 12px;
 
@@ -30,6 +32,12 @@ a:link,a:visited{
     text-decoration: none;
 }
 
+
+body {
+    background-image: url("static/images/beaver.jpg");
+}
+
+
 a:hover {
-    background-color: grey;
+    background-color: #45BD32;
 }
