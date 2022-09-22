@@ -1,5 +1,4 @@
 
-
 .ms-background {
     margin: 0;
     padding: 0;
@@ -11,20 +10,13 @@
     background-color: #B4E9AC;
     margin: 0;
     padding: 0;
-    <!--position: fixed; -->
-}
-
-.ms-content {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    background-color: #E7E9EB;
-    margin: auto;
-
+<!-- position: fixed;
+-->
 }
 
 
-a:link,a:visited{
+
+a:link, a:visited {
     font-size: 25px;
     font-weight: bold;
     font-family: "Arial Black";
@@ -38,9 +30,9 @@ a:link,a:visited{
 
 
 body {
-<!--
-    background-image: url("../images/beaver.jpg");
-    background-size:cover;
+    margin: 0;
+<!-- background-image: url("../images/beaver.jpg");
+background-size: cover;
 -->
 
 }
@@ -49,6 +41,7 @@ body {
 a:hover {
     background-color: #45BD32;
 }
+
 .title {
     padding-top: 20px;
     padding-bottom: 40px;
@@ -58,10 +51,11 @@ a:hover {
     max-width: 1050px;
     padding: 0 20px;
     font-family: Verdana;
-    background-color:  #80D972;
+    background-color: #80D972;
     border-radius: 3px;
 
 }
+
 .myImage {
     width: 36%;
     height: 36%;
@@ -70,15 +64,41 @@ a:hover {
     margin-right: 0px;
     border-radius: 5px;
 }
+
 .text {
+    width: 400px;
     letter-spacing: 0.9px;
     line-height: 1.4;
     text-align: center;
     margin-left: 35px;
     margin-right: 35px;
-   font-family: Verdana;
+    font-family: Verdana;
 }
+
 .container {
     display: flex;
     justify-content: center;
+}
+
+
+.ms-content-box {
+    background-color: white;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.ms-content {
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+
+
+.ms-home-image {
+    margin: 0;
+    width: 100rem;
+    height: 30vw;
+
+
 }
