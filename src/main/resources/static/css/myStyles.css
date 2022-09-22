@@ -127,3 +127,9 @@ a:hover {
     padding-left: 40px;
     width: 23%;
 }
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #B4E9AC;
+}
