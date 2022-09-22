@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" th:href="@{css/myStyles.css}" href="../../static/css/myStyles.css"/>
+    <link rel="stylesheet" th:href="@{css/myStyles.css}" href="../../static/css/myStyles.css"/>
     <meta charset="UTF-8">
     <title>Kontakt os!</title>
 </head>
@@ -17,51 +17,75 @@
       <p class="ms-logo-text-stop">STOP</p>
       <p class="ms-logo-text-madspild">MADSPLID</p>
 
+        </div>
+        <nav class="ms-menu">
+            <a href="home">HOME</a>
+            <a href="aboutus">ABOUT</a>
+            <a href="contact">CONTACT</a>
+        </nav>
+        <div class="search-bar">
+            <form method="#">
+                <input type="text" placeholder="Søg her..." size="20">
+                <input type="button" value="Søg">
+            </form>
+        </div>
     </div>
-    <nav class="ms-menu">
-      <a href="home">HOME</a>
-      <a href="aboutus">ABOUT</a>
-      <a href="contact">CONTACT</a>
-    </nav>
-    <div class="search-bar">
-      <form method="#">
-          <input type="text" placeholder="Søg her..." size="20">
-          <input type="button" value="Søg">
-      </form>
     </div>
-    </div>
-  </div>
 </header>
 
-<div class="ms-content-box" style="margin: auto; width: 600px; margin-top: 40px">
-  <h1 class="title">Kontakt os!</h1>
+<div class="ms-content-box ms-content-box-sizing" >
+    <h1 class="title">Kontakt os!</h1>
 
-  <div style="display: flex; justify-content: space-evenly">
+    <div style="display: flex; justify-content: space-evenly">
 
-<div class="text">
-  <h1>
-    Vi glæder os til at høre fra dig!
-  </h1>
-<p>
-  Hvert år er der fattige mennesker, som ikke har råd til at købe mad. Og mange danskere
-  smider en stor del mad ud, som sagtens kunne spises. Det betyder meget for os, andre mennesker og planeten at vi
-  skal sætte en stopper for eller formindske madspild så meget som muligt.
-  Kontakt os nu, så vi kan arbejde sammen!
-</p>
+        <div class="text">
+            <h1>
+                Vi glæder os til at høre fra dig!
+            </h1>
+            <p>
+                Hvert år er der fattige mennesker, som ikke har råd til at købe mad. Og mange danskere
+                smider en stor del mad ud, som sagtens kunne spises. Det betyder meget for os, andre mennesker og
+                planeten at vi
+                skal sætte en stopper for eller formindske madspild så meget som muligt.
+                Kontakt os nu, så vi kan arbejde sammen!
+            </p>
+        </div>
+        <form method="#">
+            <div class="input-formatter">
+                <input type="text" placeholder="Navn..." size="30">
+                <input type="text" placeholder="Efternavn...">
+                <input type="email" placeholder="email@example.com">
+                <input type="text" placeholder="Telefonnummer...">
+                <input type="button" value="Send...">
+                <i>Forvent tilbagemelding fra os inden 2 dage.</i>
+            </div>
+        </form>
+    </div>
 </div>
-    <form method="#">
-      <div class="input-formatter">
-      <input type="text" placeholder="Navn..." size="30">
-      <input type="text" placeholder="Efternavn...">
-      <input type="email" placeholder="email@example.com">
-      <input type="text" placeholder="Telefonnummer...">
-      <input type="button" value="Send...">
-        <i>Forvent tilbagemelding fra os inden 2 dage.</i>
-      </div>
-    </form>
-
-  </div>
-
-      </div>
 </body>
+
+<footer>
+    <div class="footer-content">
+        <div>
+            youtube - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+        </div>
+        <div>
+            facebook -
+        </div>
+        <div>
+            twitter -
+        </div>
+        <div>
+            instagram -
+        </div>
+        <div>
+            tiktok -
+        </div>
+        <div class="footer-content-end">
+            <p>
+                email: teambæver@stud.kea.dk
+            </p>
+        </div>
+    </div>
+</footer>
 </html>
