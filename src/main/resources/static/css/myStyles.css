@@ -243,3 +243,40 @@ footer {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
 }
+
+
+.ms-logo-spacer {
+    width: 29%;
+}
+
+.ms-logo-apple {
+    font-size: 48px;
+    position: absolute;
+    left: 45px;
+    top: -40px
+}
+
+.ms-logo-banana {
+    font-size: 55px;
+    position: absolute;
+    left: 20px;
+    top: -53px
+}
+
+.ms-logo-text-stop {
+    font-family: Veranda, serif;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    left: 105px;
+    top: 30px
+}
+
+.ms-logo-text-madspild {
+    font-family: Verdana, serif;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    left: 105px;
+    top: 42px
+}
