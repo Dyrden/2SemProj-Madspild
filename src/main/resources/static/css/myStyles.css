@@ -5,14 +5,23 @@
 }
 
 .ms-menu {
+    position: relative;
     display: flex;
     align-items: flex-start;
+    justify-content: space-evenly;
     background-color: #B4E9AC;
     margin: 0;
     padding: 0;
+    width: 100%;
+    border-radius: 10px;
 <!-- position: fixed;
 -->
 }
+
+a {
+    border-radius: 8px;
+}
+
 
 
 a:link, a:visited {
@@ -31,7 +40,7 @@ a:link, a:visited {
 body {
     margin: 0;
     background-color: #E7EFF1;
--->
+
 
 }
 
@@ -171,6 +180,28 @@ footer {
     position: absolute;
     top: 110px;
     left: 24px;
+}
+
+.input-formatter {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 40px;
+    width: 23%;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #B4E9AC;
 }
 
 

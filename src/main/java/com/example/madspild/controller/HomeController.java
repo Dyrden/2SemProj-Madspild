@@ -23,6 +23,10 @@ public class HomeController {
         return "html/index";
     }
 
+    @GetMapping("/contact")
+    public String contact() {
+        return "html/contact";
+    }
 
 
 
