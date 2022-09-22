@@ -226,8 +226,15 @@ footer {
     -webkit-text-stroke-width: 2px;
 }
 
+
+.ms-flex-even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .ms-home-image-title-text-fill {
     margin: 0;
+    width: 600px;
     font-weight: bold;
     color: white;
     font-family: "Arial Black";
