@@ -1,5 +1,4 @@
 
-
 .ms-background {
     margin: 0;
     padding: 0;
@@ -22,7 +21,6 @@
 a {
     border-radius: 8px;
 }
-
 
 
 a:link, a:visited {
@@ -119,7 +117,7 @@ a:hover {
     justify-content: space-evenly
 }
 
-.search-bar{
+.search-bar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -128,8 +126,44 @@ a:hover {
     width: 23%;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: space-between;
     background-color: #B4E9AC;
+}
+
+.ms-logo-spacer {
+    width: 29%;
+}
+
+.ms-logo-apple {
+    font-size: 48px;
+    position: absolute;
+    left: 45px;
+    top: -40px
+}
+
+.ms-logo-banana {
+    font-size: 55px;
+    position: absolute;
+    left: 20px;
+    top: -53px
+}
+
+.ms-logo-text-stop {
+    font-family: Veranda, serif;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    left: 105px;
+    top: 30px
+}
+
+.ms-logo-text-madspild {
+    font-family: Verdana, serif;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    left: 105px;
+    top: 42px
 }
