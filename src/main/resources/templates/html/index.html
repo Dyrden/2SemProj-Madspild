@@ -9,19 +9,34 @@
 
 
 <div class="ms-background">
-<header>
-    <div>
-        <nav class="ms-menu">
-            <a href="home">HOME</a>
-            <a href="aboutus">ABOUT</a>
-            <a href="contact">CONTACT</a>
-        </nav>
-    <img class="ms-home-image" th:src="@{/images/forside2.jpg}" src="../images/forside2.jpg">
+
+    <header>
+        <div style="display: flex; justify-content: space-between ;background-color: #B4E9AC;">
+            <div style="width: 400px">
+                <p style="font-size: 48px; position: absolute; left: 45px; top: -40px">🍎</p>
+                <p style="font-size: 55px; position: absolute; left: 20px; top: -53px">🍌</p>
+                <b style="font-family: Veranda,serif; font-size: 14px; position: absolute; left: 105px; top: 30px">STOP</b>
+                <b style="font-family: Verdana,serif; font-size: 14px; position: absolute; left: 105px; top: 42px">MADSPLID</b>
+
+            </div>
+            <nav class="ms-menu">
+                <a href="home">HOME</a>
+                <a href="aboutus">ABOUT</a>
+                <a href="contact">CONTACT</a>
+            </nav>
+            <div class="search-bar">
+                <form method="#">
+                    <input type="text" placeholder="Søg her..." size="20">
+                    <input type="button" value="Søg">
+                </form>
+            </div>
+
     </div>
+        <img class="ms-home-image" th:src="@{/images/forside2.jpg}" src="../images/forside2.jpg">
 </header>
 
     <div>
-        LVi er en non-profit orgranisation, der kæmper for at formindske madspild i det danske samfund.
+        Vi er en non-profit orgranisation, der kæmper for at formindske madspild i det danske samfund.
         Vores mål er at formindske mængden af madspild i alle sektorer med 60% inden 2025.
         Vi tager alle sektorer med i vores overvejelser, om hvordan madspild skal bekæmpes.
         Restaurationssektoren er dog vores primære fokus, da de står for en stor del mafspild
